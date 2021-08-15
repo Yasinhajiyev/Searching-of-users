@@ -1,0 +1,72 @@
+.search-box {
+  margin-top: 30px;
+}
+
+.search-box .search-area {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  height: auto;
+}
+
+.search-box .search-area input {
+  width: 90%;
+  background-color: white;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.search-box .search-area input:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.search-box .search-area .search-inp {
+  position: absolute;
+  right: 0%;
+  top: 0;
+  height: 100%;
+  width: 10%;
+  background-color: rebeccapurple;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.search-box .search-area .search-inp i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.search-box .users {
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  width: 50%;
+  margin: auto;
+  padding: 1.5% 0;
+  border-radius: 0.25rem;
+}
+
+.search-box .users ul {
+  padding-left: 0px !important;
+  border: 1px solid #ddd;
+  width: 95%;
+  margin: auto;
+  border-radius: 0.25rem;
+}
+
+.search-box .users ul li {
+  color: black;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+  list-style: none;
+}
+
+.search-box .users ul li:last-child {
+  border-bottom: none !important;
+}
+/*# sourceMappingURL=style.css.map */
